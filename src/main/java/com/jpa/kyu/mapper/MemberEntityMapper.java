@@ -13,4 +13,6 @@ public interface MemberEntityMapper {
     Member joinMemberDtoToEntity(JoinMemberDto joinMemberDto);
     JoinMemberDto EntityToJoinMemberDto(Member member);
 
+    MemberDto EntityToMemberDto(Member member);
+
 }
