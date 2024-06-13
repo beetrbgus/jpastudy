@@ -1,5 +1,7 @@
 package com.jpa.kyu.entity.join_strategy;
 
+import lombok.Getter;
+
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
@@ -10,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
+@Getter
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED) // 상속 매핑 사용시 부모 클래스에 사용해야 함.
 @DiscriminatorColumn(name = "DTYPE") // 엔터티를 저장할 떄 구분 컬럼에 입력할 값 지정
