@@ -8,11 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class ItemTest {
+public class Item2Test {
     @Autowired
     ItemRepository itemRepository;
     @Test
-    void createItem() {
+    void createJoinStrategyItem() {
         Album album = Album.builder()
             .title("테스트 앨범제목")
             .artistName("에메랄드")
