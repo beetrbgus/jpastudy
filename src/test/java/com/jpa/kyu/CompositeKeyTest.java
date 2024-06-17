@@ -1,8 +1,8 @@
 package com.jpa.kyu;
 
-import com.jpa.kyu.entity.composite_key.Parent;
-import com.jpa.kyu.entity.composite_key.ParentId;
-import com.jpa.kyu.entity.composite_key.ParentRepository;
+import com.jpa.kyu.entity.composite_key.idclass.Parent;
+import com.jpa.kyu.entity.composite_key.idclass.ParentId;
+import com.jpa.kyu.entity.composite_key.idclass.ParentRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
