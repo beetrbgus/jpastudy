@@ -1,4 +1,4 @@
-package com.jpa.kyu.entity.composite_key;
+package com.jpa.kyu.entity.composite_key.idclass;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
