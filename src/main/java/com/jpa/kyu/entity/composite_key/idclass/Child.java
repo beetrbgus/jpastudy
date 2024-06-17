@@ -1,4 +1,6 @@
-package com.jpa.kyu.entity.composite_key;
+package com.jpa.kyu.entity.composite_key.idclass;
+
+import lombok.Getter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,6 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinColumns;
 import javax.persistence.ManyToOne;
 
+@Getter
 @Entity
 public class Child {
     @Id
